@@ -1,0 +1,21 @@
+
+quarkus:
+  application:
+    name: simple-ai-workflow
+  http:
+    port: 8080
+  log:
+    console:
+      enable: true
+    category:
+      "dev.langchain4j.model.openai":
+        level: DEBUG # Включаем подробные логи взаимодействия с LLM
+  langchain4j:
+    openai:
+      base-url: https://api.deepseek.com
+      api-key: ${DEEPSEEK_API_KEY}
+      chat-model:
+        model-name: deepseek-chat
+        temperature: 0.2
+        log-requests: true
+        log-responses: true
