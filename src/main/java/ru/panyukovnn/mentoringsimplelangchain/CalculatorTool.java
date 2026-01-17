@@ -1,4 +1,4 @@
-package ru.panyukovnn.simpleaiworkflow;
+package ru.panyukovnn.mentoringsimplelangchain;
 
 import dev.langchain4j.agent.tool.Tool;
 import io.quarkus.logging.Log;

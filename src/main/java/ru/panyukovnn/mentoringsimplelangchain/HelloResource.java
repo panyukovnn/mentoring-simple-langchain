@@ -1,4 +1,4 @@
-package ru.panyukovnn.simpleaiworkflow;
+package ru.panyukovnn.mentoringsimplelangchain;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
