@@ -9,7 +9,7 @@ import ru.panyukovnn.mentoringsimplelangchain.agent.SimpleAgentService;
 
 @Path("/ai")
 @ApplicationScoped
-public class HelloResource {
+public class AgentController {
 
     @Inject
     SimpleAgentService agent;
