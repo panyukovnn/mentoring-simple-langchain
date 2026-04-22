@@ -3,7 +3,7 @@ quarkus:
   application:
     name: simple-ai-workflow
   http:
-    port: 8080
+    port: 8081
   log:
     console:
       enable: true
